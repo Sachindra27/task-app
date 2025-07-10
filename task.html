@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task App</title>
+  <link rel="stylesheet" href="task.css" />
+</head>
+<body>
+  <header class="top-bar">
+    <div class="profile">
+      <img src="profile.jpg" alt="Profile picture of Sachin Shrestha" />
+      <div class="info">
+        <p class="name">Sachin Shrestha</p>
+        <p class="email">newarsachin07@gmail.com</p>
+      </div>
+    </div>
+    <form class="search-box" role="search">
+      <input type="search" placeholder="Search..." aria-label="Search tasks" />
+    </form>
+  </header>
+
+  <main class="main-container">
+    <nav class="sidebar">
+      <ul>
+        <li><a href="#">🌞 My Day</a></li>
+        <li><a href="#">⭐ Important</a></li>
+        <li><a href="#">🏠 Tasks</a></li>
+      </ul>
+    </nav>
+
+    <section class="task-view" aria-labelledby="my-day-heading">
+      <h2 id="my-day-heading">🌞 My Day</h2>
+      <p class="date">Wednesday, June 25</p>
+      <button class="add-task">Add a task ➕</button>
+    </section>
+
+    <aside class="empty-space" aria-hidden="true">
+      <!-- Optional space -->
+    </aside>
+  </main>
+</body>
+</html>
