@@ -32,12 +32,16 @@
     <section class="task-view" aria-labelledby="my-day-heading">
       <h2 id="my-day-heading">🌞 My Day</h2>
       <p class="date">Wednesday, June 25</p>
-      <button class="add-task">Add a task ➕</button>
+      <button class="add-task" onclick="addTask()">Add a task ➕</button>
+      <ul id="task-list" class="task-list"></ul>
     </section>
 
     <aside class="empty-space" aria-hidden="true">
       <!-- Optional space -->
     </aside>
   </main>
+
+  <!-- Load the JavaScript logic -->
+  <script src="task.js"></script>
 </body>
 </html>

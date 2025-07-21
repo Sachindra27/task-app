@@ -85,3 +85,27 @@ body {
   width: 200px;
   background-color: #ddd;
 }
+
+.task-list {
+  list-style: none;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.task-list li {
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-list button {
+  margin-left: 10px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+}
